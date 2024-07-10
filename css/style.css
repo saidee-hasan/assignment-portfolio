@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+/* shire style */
+p{
+    color: #757575;
+}
 /* header styles */
 .nav{
 display: flex;
@@ -22,10 +26,10 @@ margin: 30px 200px;
     
 }
 .resume-download{
-    border: 1px sold black;
+    border: 1px sold rgb(235, 217, 217);
     background-color: white;
     width: 160px;
-    height: 35px;
+    height: 45px;
     cursor: pointer;
 }
 /* header background images */
