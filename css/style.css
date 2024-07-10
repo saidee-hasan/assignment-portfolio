@@ -88,6 +88,9 @@ margin: 30px 200px;
    margin-top: 40px;
   
 }
+.box img{
+    margin-left: 300px;
+}
 .box-text {
    margin: 35px 0px;
    padding-left: 30px;
@@ -152,10 +155,12 @@ margin: 30px 200px;
 .skill{
     padding: 20px;
     border-radius: 10px;
+    width: 300px;
 
     height: 200px;
 
 }
+
 .card{
     background-color: rgba(255, 76, 30, 0.05);
 }
