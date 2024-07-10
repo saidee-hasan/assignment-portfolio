@@ -55,6 +55,9 @@ margin: 20px 200px;
     margin-left: auto;
     margin-right: auto;
 }
+.header-text h1{
+    text-align: center;
+}
 .header-text button{
     background-color: black;
     width: 140px;
