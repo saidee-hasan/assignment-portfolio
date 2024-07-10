@@ -54,11 +54,12 @@ margin: 30px 200px;
 .header-text button{
     background-color: black;
     width: 140px;
-    height: 25px;
+    height: 40px;
     color: white;
     margin-left: 350px;
     margin-top: 90px;
     cursor: pointer;
+    border-radius: 4px;
     
 }
 
