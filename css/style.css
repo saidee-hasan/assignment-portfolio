@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+margin: 30px 200px;
+
+}
+.nav > ul{
+    display: flex;
+    align-items: center;  
+}
+.nav > ul li{
+    list-style: none;
+    margin-right:51px ;
+    
+}
+.resume-download{
+    border: 1px sold black;
+    background-color: white;
+    width: 160px;
+    height: 35px;
+    cursor: pointer;
+}
+/* header background images */
+.background-image{
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   height: 645px;
+
+}
+.container-title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-text{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-text button{
+    background-color: black;
+    width: 140px;
+    height: 25px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 90px;
+    cursor: pointer;
+    
+}
+
+/* main styles */
+.box-container{
+   
+    background: rgba(13, 19, 33, 0.02);
+    width: 1150px;
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.box-container > h1 ,p{
+    text-align: center;
+}
+
+/* Why Web Development */
+.box{
+    display: flex;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+   margin-top: 40px;
+  
+}
+.box-text {
+   margin: 35px 0px;
+   padding-left: 30px;
+}
+.box-text p{
+    margin-top: 10px;
+
+}
+.box-text button{
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+
+
+}
+
+.box-2{
+    display: flex;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+   margin-top: 40px;
+  
+}
+
+/* Inspiration */
+.Inspiration >h1,p{
+    text-align: center;
+
+}
+.video{
+    text-align: center;
+    margin: 20px 0px;
+    
+}
+.video iframe{
+    box-sizing: border-box;
+  border: 30px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
+
+
+
+/* skills */
+.text h1{
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.skill{
+    padding: 20px;
+    border-radius: 10px;
+
+    height: 200px;
+
+}
+.card{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.card-1{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card-2{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+
+/* My Next Target */
+
+.next-target{
+   margin-right: auto;
+   margin-left: auto;
+   width: 1150px;
+  
+}
+.next-target h1{
+    text-align: center;
+}
+.card-skill{
+    padding: 20px;
+    display: flex;
+   height: 150px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    
+}
+/* footer */
+.footer{
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.footer h1{
+    text-align: center;
+    color: white;
+}
+.footer p{
+    color: white;
+
+}
+
+.input-filds{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.input-filds input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+.input-filds input[type="submit"]{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgba(13, 19, 33, 0.03);
+    
+    }
+   .contact >  ul{
+        display: flex;
+        align-items: center;  
+    }
+   .contact > ul li{
+        list-style: none;
+        margin-right:30px ;
+        
+    }
