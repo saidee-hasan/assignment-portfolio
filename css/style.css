@@ -7,13 +7,17 @@
 p{
     color: #757575;
 }
+a{
+    color: black;
+}
 /* header styles */
 .nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
 margin-top: 10px;
-margin: 30px 200px;
+
+margin: 20px 200px;
 
 }
 .nav > ul{
