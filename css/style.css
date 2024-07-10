@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
+
 
 /* shire style */
 p{
@@ -57,6 +60,9 @@ margin: 20px 200px;
 }
 .header-text h1{
     text-align: center;
+}
+.header-text a{
+    color: aliceblue;
 }
 .header-text button{
     background-color: black;
@@ -140,7 +146,7 @@ margin: 20px 200px;
 }
 .video iframe{
     box-sizing: border-box;
-  border: 30px solid rgba(13, 19, 33, 0.2);
+  border: 30px solid rgba(209, 217, 238, 0.2);
     border-radius: 16px;
     
 }
